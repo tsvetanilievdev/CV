@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Estilo Center - Запази час!</title>
+</head>
+
+<body>
+    <div id="wrapper-form">
+        <h3>Часове за 18.07</h3>
+        <form id="book-hours">
+            <label for="fname">Име</label>
+            <input type="text" id="fname" name="fname"><br><br>
+            <label for="lname">Фамилия</label>
+            <input type="text" id="lname" name="lname"><br><br>
+            <label for="number">Телефон</label>
+            <input type="text" id="number" name="number"><br><br>
+
+            <label for="service">Избери услуга</label>
+            <select id="service" name="service">
+                <option value="laser">Лазер</option>
+                <option value="kola-maska">Кола маска</option>
+                <option value="clear-face">Почистване на лице</option>
+                <option value="massage">Масаж</option>
+            </select>
+
+            <label for="hours">Избери свободен час</label>
+            <select id="hours" name="hours">
+                <option value="eigth">08:00</option>
+                <option value="eigth-thirty">08:30</option>
+                <option value="nine">09:00</option>
+                <option value="nine-thirty">09:30</option>
+                <option value="ten">10:00</option>
+                <option value="ten-thirty">10:30</option>
+                <option value="eleven">11:00</option>
+                <option value="eleven-thirty">11:30</option>
+                <option value="twelve">12:00</option>
+                <option value="twelve-thirty">12:30</option>
+            </select>
+            <input type="submit" value="Submit">
+        </form>
+        <h1 id="err-input" display="none">Попълни всички полета</h1>
+    </div>
+    <script src="/app.js"></script>
+</body>
+
+</html>

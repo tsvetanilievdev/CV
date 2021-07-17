@@ -1,0 +1,12 @@
+body {
+    background-color: rgb(192, 26, 151);
+}
+
+#wrapper-form {
+    color: white;
+    margin: 100px 500px;
+    width: 800px;
+    height: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(192, 26, 151);
+}
