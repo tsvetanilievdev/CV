@@ -1,0 +1,211 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+ */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Oswald';
+}
+.showcase {
+  position: absolute;
+  right: 0;
+  width: 100%;
+  min-height: 100vh;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #6f025f; /* ФОН - ЦВЯТ - #6f025f*/
+  color: white;
+  z-index: 2;
+  transition: 1.5s;
+}
+
+.showcase.active {
+    right: 300px;
+}
+
+.showcase header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 40px 100px;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.estilo-logo {
+  width: 160px;
+  height: 120px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.estilo-logo:hover {
+    width: 165px;
+    height: 123px;
+  }
+/* .logo {
+  text-transform: uppercase;
+  cursor: pointer;
+} */
+
+.toggle {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  background-image: url('../images/menu.png');
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-position: center;
+  cursor: pointer;
+}
+
+.toggle.active {
+  background-image: url('../images/close.png');
+  background-repeat: no-repeat;
+  background-size: 25px;
+  background-position: center;
+}
+
+.showcase video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.8;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(111, 2, 95, 0.1);
+}
+
+.text {
+  position: relative;
+  z-index: 10;
+}
+
+.text h2 {
+  font-size: 5em;
+  font-weight: 800;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+
+.text h3 {
+  font-size: 4em;
+  font-weight: 700;
+  line-height: 1em;
+  text-transform: uppercase;
+  color: #960b81;
+}
+
+.text p {
+  font-size: 1.1em;
+  margin: 20px 0;
+  font-weight: 400;
+  max-width: 700px;
+}
+
+.text a {
+  display: inline-block;
+  font-size: 1em;
+  background: white;
+  padding: 10px 30px;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: 0.2s;
+  color: #6f025f;
+}
+.text a:hover {
+  letter-spacing: 6px;
+}
+
+.social {
+  position: absolute;
+  bottom: 20px;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social li {
+    list-style: none;
+}
+
+.social li a {
+    display: inline-block;
+    filter: invert(1);
+    margin-right: 20px;
+    transform: scale(0.7);
+    transition: 0.5s;
+}
+
+.social li a:hover {
+    transform: scale(0.9) translateY(-15px);
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu ul {
+    position: relative;
+    list-style: none;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-size: 24px;
+    color: #6f025f;
+}
+.menu ul li a:hover {
+    color: #ce28b5;
+}
+
+
+@media(max-width: 800px) {
+    .showcase, 
+    .showcase header {
+        padding: 40px;
+    }
+
+    .text h2 {
+        font-size: 3em;
+    }
+    .text h3 {
+        font-size: 2em;
+    }
+
+    .estilo-logo {
+        width: 80px;
+        height: 60px;
+      }
+      
+      .estilo-logo:hover {
+          width: 83px;
+          height: 62px;
+        }
+}
