@@ -11,10 +11,13 @@
     <link rel="stylesheet" href="./styles/components.css">
     <link rel="stylesheet" href="./styles/header.css">
     <link rel="stylesheet" href="./styles/hero.css">
+    <link rel="stylesheet" href="./styles/service-preview.css">
+    <script src="./script/script.js" defer></script>
     <title>Козметичен център Естило</title>
 </head>
 
 <body>
+
     <header>
         <div class="info">
             <ul>
@@ -33,7 +36,6 @@
             <a href="">
                 <img class="logo" src="./src/images/logo-500-378px.png" alt="logo-estilo">
             </a>
-            <!-- <h2 class="logo-title">Козметичен Център Естило</h2> -->
         </div>
         <nav class="navigation">
             <ul class="navigation-list">
@@ -48,14 +50,13 @@
     <section id="hero">
         <div class="overlay"></div>
         <div class="hero-wrapper">
-            <!-- <h1>Relaxing Is Never Easy On Your Own</h1> -->
             <h1>Козметичен Център Естило</h1>
             <p>Ние Ви предлагаме широка гама от услуги и процедури, поднесени и изпълнени с професионализъм,
                 компетентност и индивидуален подход!</p>
             <div class="btn-wrap">
                 <a class="btn btn--primary" href="services">Услуги и Процедури <i
                         class="fa-solid fa-chevron-right"></i></a>
-                <!-- <a class="btn btn--secondary" href="book">Book now <i class="fa-solid fa-chevron-right"></i></a> -->
+                <a class="btn btn--secondary" href="book">Book now <i class="fa-solid fa-chevron-right"></i></a>
             </div>
             <div class="social-wrap">
                 <a href="https://www.facebook.com/profile.php?id=100063802381213" target="_blank"><i
@@ -63,6 +64,37 @@
                 <a href="https://www.instagram.com/estilo.cosmetic.center" target="_blank"><i
                         class="fa-brands fa-instagram"></i></a>
             </div>
+        </div>
+    </section>
+
+    <section id="service-preview">
+        <div class="preview-card-wrap">
+            <ul class="preview-card-list">
+                <li class="preview-card-item">
+                    <div class="preview-img-container">
+                        <img src="/src/images/card-lpg.png" alt="LGP ">
+                        <span>Категория</span>
+                    </div>
+                    <div class="preview-content">
+                        <h3>Лазерна Епилация</h3>
+                        <p>SHR Епилация, Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate tenetur
+                            quia aspernatur porro temporibus facilis nemo!</p>
+                        <a class="btn btn--primary" href="">Виж Още</a>
+                    </div>
+                </li>
+                <li class="preview-card-item">
+                    <div class="preview-img-container">
+                        <img src="/src/images/card-lpg.png" alt="LGP ">
+                        <span>Категория</span>
+                    </div>
+                    <div class="preview-content">
+                        <h3>Лазерна Епилация</h3>
+                        <p>SHR Епилация, Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate tenetur
+                            quia aspernatur porro temporibus facilis nemo!</p>
+                        <a class="btn btn--primary" href="">Виж Още</a>
+                    </div>
+                </li>
+            </ul>
         </div>
     </section>
 </body>
