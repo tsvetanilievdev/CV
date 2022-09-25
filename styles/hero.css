@@ -1,6 +1,6 @@
 #hero {
     position: relative;
-    min-height: 440px;
+    min-height: 560px;
     height: calc(100vh - 280px);
     background-image: url("../src/images/hero-section.png");
     background-repeat: no-repeat;
@@ -57,6 +57,22 @@
 }
 #hero a i {
     font-size: 12px;
+}
+
+#hero .social-wrap {
+    margin-top: 30px;
+}
+#hero .social-wrap a {
+    color: var(--color-white);
+    text-decoration: none;
+}
+#hero .social-wrap a:hover i {
+    transform: scale(1.5);
+}
+#hero .social-wrap a i {
+    font-size: 46px;
+    transition: all 400ms ease-in-out;
+    margin: 0 20px 0;
 }
 
 @media screen and (max-width: 540px) {
