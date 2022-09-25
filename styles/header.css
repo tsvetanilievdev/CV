@@ -3,8 +3,8 @@
 /* -----------div.info----------- */
 header div.info {
     height: 50px;
-    background-color: #b22b8a;
     background-color: #f59b90;
+    background-color: var(--primary-color);
     /* #F59B90 */
     color: white;
     font-size: 14px;
@@ -53,7 +53,7 @@ header .navigation ul {
     align-items: center;
     height: 79px;
     gap: 0px 50px;
-    border-top: 1px solid #f59b90;
+    border-top: 1px solid var(--primary-color);
 }
 
 header .navigation ul a {
@@ -64,5 +64,5 @@ header .navigation ul a {
     font-weight: 500;
 }
 header .navigation ul a:hover {
-    border-bottom: 3px solid #f59b90;
+    border-bottom: 3px solid var(--primary-color);
 }
