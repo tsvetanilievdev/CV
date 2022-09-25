@@ -59,7 +59,7 @@
     font-size: 12px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 540px) {
     #hero .hero-wrapper {
         margin: 0 10px 0;
     }

@@ -16,11 +16,6 @@ div.info ul {
     align-items: center;
     height: 100%;
 }
-div.info li {
-}
-div.info li i {
-    margin-right: 10px;
-}
 
 /* -----------div.logo----------- */
 div.logo {
@@ -65,7 +60,13 @@ header .navigation ul a:hover {
     border-bottom: 3px solid var(--primary-color);
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 540px) {
+    header .navigation ul {
+        gap: 0px 20px;
+    }
+    header .navigation ul a {
+        font-size: 14px;
+    }
     div.logo {
         height: 100px;
     }
