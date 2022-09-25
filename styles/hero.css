@@ -51,6 +51,10 @@
 }
 
 @media screen and (max-width: 600px) {
+    #hero .hero-wrapper {
+        margin: 0 10px 0;
+    }
+
     #hero .overlay {
         opacity: 0.6;
     }
@@ -58,13 +62,9 @@
     #hero h1 {
         font-size: 2rem;
         line-height: 1.1;
-        font-weight: 500;
-        padding: 0 10px 0;
     }
     #hero p {
-        padding: 40px 0 40px;
         font-size: 1rem;
-        line-height: 1.2;
-        letter-spacing: 1.1px;
+        line-height: 1.3;
     }
 }
