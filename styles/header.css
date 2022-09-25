@@ -3,9 +3,7 @@
 /* -----------div.info----------- */
 header div.info {
     height: 50px;
-    background-color: #f59b90;
     background-color: var(--primary-color);
-    /* #F59B90 */
     color: white;
     font-size: 14px;
 }
