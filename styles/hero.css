@@ -29,7 +29,7 @@
     left: 0;
     bottom: 0;
     right: 0;
-    background-color: black;
+    background-color: var(--overlay-color);
     opacity: 0.3;
 }
 
@@ -48,4 +48,23 @@
 }
 #hero a i {
     font-size: 12px;
+}
+
+@media screen and (max-width: 600px) {
+    #hero .overlay {
+        opacity: 0.6;
+    }
+
+    #hero h1 {
+        font-size: 2rem;
+        line-height: 1.1;
+        font-weight: 500;
+        padding: 0 10px 0;
+    }
+    #hero p {
+        padding: 40px 0 40px;
+        font-size: 1rem;
+        line-height: 1.2;
+        letter-spacing: 1.1px;
+    }
 }

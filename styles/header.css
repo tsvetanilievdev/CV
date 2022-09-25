@@ -64,3 +64,9 @@ header .navigation ul a {
 header .navigation ul a:hover {
     border-bottom: 3px solid var(--primary-color);
 }
+
+@media screen and (max-width: 600px) {
+    div.logo {
+        height: 100px;
+    }
+}

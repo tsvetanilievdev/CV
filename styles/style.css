@@ -1,7 +1,9 @@
 @import url("https://use.fontawesome.com/releases/v6.1.1/css/all.css");
 :root {
+    /* ---colors--- */
     --primary-color: #b22b8a;
     --primary-color: #773749;
     --secondary-color: #f59b90;
+    --overlay-color: #000;
     --white-color: #ffffff;
 }
