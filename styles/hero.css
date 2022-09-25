@@ -1,6 +1,6 @@
 #hero {
     height: calc(100vh - 280px);
-    background-image: url("./src/images/hero-section.png");
+    background-image: url(./src/images/hero-section.png);
     background-repeat: no-repeat;
     background-position: center right;
     background-size: cover;
