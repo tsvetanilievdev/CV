@@ -41,4 +41,8 @@
 #hero a {
     color: white;
     padding: 10px;
+    text-decoration: none;
+}
+#hero a i {
+    font-size: 12px;
 }
