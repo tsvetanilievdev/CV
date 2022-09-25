@@ -1,3 +1,10 @@
+.service-preview-title {
+    font-size: 2rem;
+    font-family: Prata;
+    text-align: center;
+    color: var(--primary-color);
+    margin: 30px;
+}
 .preview-card-list {
     display: flex;
     flex-direction: column;
