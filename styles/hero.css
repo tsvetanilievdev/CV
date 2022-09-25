@@ -3,4 +3,5 @@
     background-image: url("/src/images/hero-section.png");
     background-repeat: no-repeat;
     background-position: center right;
+    background-size: cover;
 }
