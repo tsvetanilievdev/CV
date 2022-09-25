@@ -55,7 +55,7 @@ header .navigation ul {
 }
 
 header .navigation ul a {
-    color: #000;
+    color: var(--primary-color);
     text-decoration: none;
     text-transform: uppercase;
     font-size: 14px;
