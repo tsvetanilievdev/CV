@@ -1,4 +1,7 @@
 /* HEADER */
+#header {
+    background-color: var(--background-color-primary);
+}
 
 /* -----------div.info----------- */
 header div.info {

@@ -1,9 +1,12 @@
+#service-preview {
+    background-color: var(--background-color-primary);
+}
 .service-preview-title {
     font-size: 2rem;
     font-family: Prata;
     text-align: center;
     color: var(--primary-color);
-    margin: 30px;
+    padding: 30px;
 }
 .preview-card-list {
     display: flex;
@@ -107,6 +110,6 @@
         width: 30%;
     }
     .service-preview-title {
-        margin: 60px;
+        padding: 60px;
     }
 }
