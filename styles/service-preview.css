@@ -72,12 +72,12 @@
 
 @media screen and (min-width: 768px) {
     .preview-card-list {
-        width: 96%;
+        width: 86%;
         margin: 0 auto 0;
         flex-wrap: wrap;
         flex-direction: row;
         align-items: stretch;
-        justify-content: flex-start;
+        justify-content: center;
     }
     .preview-card-item {
         width: 45%;
@@ -99,7 +99,7 @@
 @media screen and (min-width: 1200px) {
     .preview-card-list {
         justify-content: flex-start;
-        width: 80%;
+        width: 76%;
         column-gap: calc(10% / 2);
         row-gap: 30px;
     }
