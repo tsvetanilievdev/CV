@@ -8,14 +8,16 @@
 .preview-card-list {
     display: flex;
     flex-direction: column;
+    justify-items: s;
+    align-items: stretch;
     width: 80%;
     margin: 0 auto 0;
+    gap: 20px;
 }
 .preview-card-item {
     display: flex;
-    flex-wrap: nowrap;
     flex-direction: column;
-    margin: 20px;
+
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
         0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
@@ -53,6 +55,7 @@
     width: 30%;
     align-self: center;
     margin: 20px;
+    font-size: 14px;
 }
 
 .preview-content h3 {
@@ -65,4 +68,45 @@
     font-size: 14px;
     line-height: 1.2;
     letter-spacing: 0.5px;
+}
+
+@media screen and (min-width: 768px) {
+    .preview-card-list {
+        width: 96%;
+        margin: 0 auto 0;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: stretch;
+        justify-content: flex-start;
+    }
+    .preview-card-item {
+        width: 45%;
+    }
+    .preview-content .btn {
+        font-size: 16px;
+    }
+
+    .preview-content h3 {
+        margin: 30px 20px 20px;
+        height: 25%;
+    }
+    .preview-content p {
+        height: 50%;
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .preview-card-list {
+        justify-content: flex-start;
+        width: 80%;
+        column-gap: calc(10% / 2);
+        row-gap: 30px;
+    }
+    .preview-card-item {
+        width: 30%;
+    }
+    .service-preview-title {
+        margin: 60px;
+    }
 }
