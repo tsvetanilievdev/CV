@@ -2,6 +2,7 @@
     background: linear-gradient(var(--primary-color), var(--secondary-color));
     padding: 30px;
     color: var(--white-color);
+    text-transform: uppercase;
 }
 
 #footer div {
@@ -15,6 +16,8 @@
 }
 #footer div h4 {
     font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
 }
 #footer div p {
     font-size: 14px;
@@ -27,23 +30,39 @@
     font-size: var(--footer-heading-size-main);
     padding: 10px;
     text-align: center;
+    font-family: var(--main-heading-font-family);
 }
 .footer-heading {
     font-size: var(--footer-heading-size);
-    padding: 10px;
-    text-align: center;
+    padding: 10px 4px;
 }
 #footer i {
     font-size: var(--footer-heading-size);
 }
-
 #footer div .footer-heading.phone {
-    padding: 20px 10px;
+    margin-top: 30px;
+}
+#footer div .footer-heading.phone a {
+    color: var(--white-color);
+    font-size: var(--footer-heading-size);
+    letter-spacing: 1px;
+    text-decoration: none;
+    padding: 10px 0px;
+    font-weight: 500;
+}
+.procedures {
+    border-top: 1px solid var(--white-color);
+}
+.procedures p {
+    font-size: var(--footer-heading-size);
+    font-weight: 500;
+    margin: 25px 0 5px;
+    text-transform: uppercase;
 }
 
-.procedures p {
-    font-size: 1.15rem;
-    text-align: center;
-    font-weight: 500;
-    margin: 15px 0;
+.procedures a {
+    font-size: 14px;
+    color: var(--white-color);
+    text-decoration: none;
+    text-transform: uppercase;
 }
