@@ -2,7 +2,6 @@
     background: linear-gradient(var(--primary-color), var(--secondary-color));
     padding: 30px;
     color: var(--white-color);
-    text-transform: uppercase;
 }
 
 #footer div {
@@ -35,6 +34,7 @@
 .footer-heading {
     font-size: var(--footer-heading-size);
     padding: 10px 4px;
+    text-transform: uppercase;
 }
 #footer i {
     font-size: var(--footer-heading-size);
