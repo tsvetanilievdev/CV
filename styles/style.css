@@ -2,10 +2,13 @@
 :root {
     /* ---colors--- */
     --primary-color: #773749;
-    --primary-color: #b22b8a;
     --primary-color: #80145f;
     --secondary-color: #f59b90;
+    --tertiary-color: #b22b8a;
     --overlay-color: #000;
     --white-color: #ffffff;
     --background-color-primary: #faebd7;
+    --footer-heading-size-main: 1.5rem;
+    --footer-heading-size: 1.25rem;
+    --footer-heading-weigth: 500;
 }

@@ -1,5 +1,7 @@
 #service-preview {
     background-color: var(--background-color-primary);
+
+    padding-bottom: 30px;
 }
 .service-preview-title {
     font-size: 2rem;
@@ -100,6 +102,9 @@
 }
 
 @media screen and (min-width: 1200px) {
+    #service-preview {
+        padding-bottom: 60px;
+    }
     .preview-card-list {
         justify-content: flex-start;
         width: 76%;
