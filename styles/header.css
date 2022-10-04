@@ -1,6 +1,7 @@
 /* HEADER */
 #header {
     background-color: var(--background-color-primary);
+    background: linear-gradient(var(--white-color), var(--secondary-color));
 }
 
 /* -----------div.info----------- */
@@ -49,11 +50,11 @@ header .navigation ul {
     align-items: center;
     height: 79px;
     gap: 0px 50px;
-    border-top: 1px solid var(--primary-color);
+    border-top: 1px solid var(--black-color);
 }
 
 header .navigation ul a {
-    color: var(--primary-color);
+    color: var(--black-color);
     text-decoration: none;
     text-transform: uppercase;
     font-size: 14px;

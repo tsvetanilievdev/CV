@@ -5,8 +5,10 @@
     --primary-color: #80145f;
     --secondary-color: #f59b90;
     --tertiary-color: #b22b8a;
+    --background-color-card: rgb(248, 200, 200);
     --overlay-color: #000;
     --white-color: #ffffff;
+    --black-color: #000;
     /* --background-color-primary: #faebd7; */
     --background-color-primary: #f8eef5;
     --footer-heading-size-main: 1.5rem;
