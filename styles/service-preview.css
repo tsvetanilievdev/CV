@@ -1,6 +1,6 @@
 #service-preview {
     background-color: var(--background-color-primary);
-    background: linear-gradient(var(--secondary-color), var(--primary-color));
+    /* background: linear-gradient(var(--secondary-color), var(--primary-color)); */
 
     padding-bottom: 30px;
 }

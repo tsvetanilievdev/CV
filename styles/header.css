@@ -1,7 +1,7 @@
 /* HEADER */
 #header {
     background-color: var(--background-color-primary);
-    background: linear-gradient(var(--white-color), var(--secondary-color));
+    /* background: linear-gradient(var(--white-color), var(--secondary-color)); */
 }
 
 /* -----------div.info----------- */
