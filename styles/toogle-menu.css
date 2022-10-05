@@ -2,7 +2,7 @@
     background: linear-gradient(var(--primary-color), var(--secondary-color));
     border-radius: 8px;
     position: fixed;
-    top: 195px;
+    top: 15px;
     left: 5%;
     right: 5%;
     min-height: 500px;
