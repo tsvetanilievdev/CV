@@ -2,15 +2,16 @@
     background: linear-gradient(var(--primary-color), var(--secondary-color));
     border-radius: 8px;
     position: fixed;
-    top: 20px;
+    top: 195px;
     left: 5%;
     right: 5%;
     min-height: 500px;
     height: calc(100vh - 80px);
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     padding-top: 30px;
+    padding-left: 30px;
     opacity: 0.9;
     transition: top 0.8s ease-in-out, opacity 0.4s ease-in;
     z-index: 1;
@@ -36,7 +37,7 @@
     right: 5%;
 }
 .closed {
-    top: -530px;
+    top: -235x;
     opacity: 0;
     z-index: -1;
 }
