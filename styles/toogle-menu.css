@@ -1,0 +1,42 @@
+.toogle-menu {
+    background: linear-gradient(var(--primary-color), var(--secondary-color));
+    border-radius: 8px;
+    position: fixed;
+    top: 20px;
+    left: 5%;
+    right: 5%;
+    min-height: 500px;
+    height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    opacity: 0.9;
+    transition: top 0.8s ease-in-out, opacity 0.4s ease-in;
+    z-index: 1;
+}
+.toogle-menu li {
+    width: 100px;
+}
+.toogle-menu li a {
+    color: var(--white-color);
+    text-decoration: none;
+    font-size: 18px;
+}
+.toogle-menu li a.heading {
+    font-weight: 700;
+    padding-top: 20px;
+    display: block;
+}
+.toogle-menu li a#close-menu {
+    font-size: 20px;
+    font-weight: 700;
+    position: absolute;
+    top: 30px;
+    right: 5%;
+}
+.closed {
+    top: -530px;
+    opacity: 0;
+    z-index: -1;
+}
