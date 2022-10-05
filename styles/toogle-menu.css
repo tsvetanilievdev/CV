@@ -2,7 +2,7 @@
     background: linear-gradient(var(--primary-color), var(--secondary-color));
     border-radius: 8px;
     position: fixed;
-    top: 15px;
+    top: -15px;
     left: 5%;
     right: 5%;
     min-height: 500px;
@@ -10,24 +10,25 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding-top: 30px;
+    padding-top: 10px;
     padding-left: 30px;
     opacity: 0.9;
-    transition: top 0.8s ease-in-out, opacity 0.4s ease-in;
+    transition: top 1.8s ease-in-out, opacity 0.8s ease-in;
     z-index: 1;
 }
 .toogle-menu li {
-    width: 100px;
+    margin-top: 5px;
 }
 .toogle-menu li a {
     color: var(--white-color);
     text-decoration: none;
-    font-size: 18px;
+    font-size: 14px;
 }
 .toogle-menu li a.heading {
     font-weight: 700;
     padding-top: 20px;
     display: block;
+    text-transform: uppercase;
 }
 .toogle-menu li a#close-menu {
     font-size: 20px;
@@ -37,7 +38,7 @@
     right: 5%;
 }
 .closed {
-    top: -235x;
+    top: -230x;
     opacity: 0;
     z-index: -1;
 }
