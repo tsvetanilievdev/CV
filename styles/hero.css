@@ -1,7 +1,7 @@
 #hero {
     position: relative;
     min-height: 560px;
-    height: calc(100vh - 280px);
+    height: calc(100vh - 245px);
     background-image: url("../src/images/hero-section.png");
     background-repeat: no-repeat;
     background-position: center right;
