@@ -48,7 +48,7 @@ header .navigation ul {
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
-    height: 79px;
+    height: 44px;
     gap: 0px 50px;
     border-top: 1px solid var(--black-color);
 }
