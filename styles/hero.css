@@ -68,6 +68,7 @@
 }
 #hero .social-wrap a:hover i {
     transform: scale(1.5);
+    color: var(--primary-color);
 }
 #hero .social-wrap a i {
     font-size: 46px;
