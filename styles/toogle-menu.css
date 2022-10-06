@@ -52,14 +52,32 @@
     opacity: 0;
     z-index: -1;
 }
-.none {
-    display: none;
-}
+
 .toogle-menu li a.heading.selected {
     /* color: var(--secondary-color); */
     color: #eb1bac;
 }
 
+.toogle-menu > li:not(:last-child) {
+    position: relative;
+    margin: 15px 0;
+}
+.toogle-menu ul.pro {
+    position: absolute;
+    top: -20px;
+    opacity: 0;
+    transition: top 800ms ease-in-out, opacity 300ms ease-in 300ms,
+        opacity 1ms ease-out, visibility 1ms ease-out;
+    z-index: -1;
+    visibility: 0;
+}
+.toogle-menu ul.pro.show {
+    position: relative;
+    top: 0px;
+    opacity: 1;
+    z-index: 1;
+    visibility: 1;
+}
 @media screen and (min-width: 768px) {
     .toogle-menu {
         position: absolute;
