@@ -17,6 +17,8 @@
     transition: top 1.8s ease-in-out, opacity 0.8s ease-in;
     z-index: 1;
     overflow: hidden;
+    min-height: 500px;
+    height: calc(100vh - 50px);
 }
 .toogle-menu li {
     margin-top: 5px;
@@ -64,12 +66,7 @@
         top: 246px;
         left: calc((100vw - 200px - 56px - 65px - 87px - 73px) / 2);
         right: calc((100vw - 200px - 56px - 65px - 87px - 73px) / 2);
+        min-height: unset;
+        height: unset;
     }
-}
-
-@media screen and (min-width: 1200px) {
-    /* .toogle-menu {
-        left: 33%;
-        right: 33%;
-    } */
 }
