@@ -1,3 +1,5 @@
+"use strict"
+
 document.getElementById('close-menu').addEventListener('click', closeMenu);
 document.getElementById('show-menu').addEventListener('click', showMenu);
 document.getElementById('toogle-menu').addEventListener('click', toogleProcedures);
