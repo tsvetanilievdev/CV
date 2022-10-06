@@ -25,9 +25,13 @@
     text-decoration: none;
     font-size: 16px;
 }
+.toogle-menu li a:hover {
+    color: var(--secondary-color);
+}
 .toogle-menu li a.heading {
     font-weight: 700;
-    padding-top: 20px;
+    margin-top: 20px;
+    padding: 3px 0;
     display: block;
     text-transform: uppercase;
 }
@@ -45,4 +49,23 @@
 }
 .none {
     display: none;
+}
+.toogle-menu li a.heading.selected {
+    color: var(--secondary-color);
+}
+
+@media screen and (min-width: 768px) {
+    .toogle-menu {
+        position: absolute;
+        top: 246px;
+        left: calc((100vw - 200px - 56px - 65px - 87px - 73px) / 2);
+        right: calc((100vw - 200px - 56px - 65px - 87px - 73px) / 2);
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    /* .toogle-menu {
+        left: 33%;
+        right: 33%;
+    } */
 }
