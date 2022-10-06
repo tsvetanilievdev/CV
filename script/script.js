@@ -11,9 +11,11 @@ function showMenu(event) {
 }
 
 function toogleProcedures(event) {
-    let clickedLink = event.target
+    let clickedLink = event.target;
     if (clickedLink.tagName == 'A' && clickedLink.classList.contains('heading')) {
-        links.forEach(x => x.parentElement.classList.add('none'));
-        links.filter(x => x.classList.contains(clickedLink.id)).forEach(x => x.parentElement.classList.remove('none'))
+        //closed all open links
+        links.filter(x => !x.classList.contains(clickedLink.id)).forEach(x => x.parentElement.classList.add('none'));
+        //when click on heading link, toogle his sublinks
+        links.filter(x => x.classList.contains(clickedLink.id)).forEach(x => x.parentElement.classList.toggle('none'))
     }
 }
