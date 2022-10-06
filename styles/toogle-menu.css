@@ -1,17 +1,18 @@
 .toogle-menu {
-    background: linear-gradient(var(--primary-color), var(--secondary-color));
-    border-radius: 8px;
+    /* background: linear-gradient(var(--primary-color), var(--secondary-color)); */
+    /* background: linear-gradient(var(--white-color), #f8eef5); */
+    background: #f8eef5;
+    /* border-radius: 8px; */
     position: fixed;
     top: 15px;
     left: 5%;
     right: 5%;
-    min-height: 500px;
-    height: calc(100vh - 80px);
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding-top: 10px;
     padding-left: 30px;
+    padding-bottom: 20px;
     opacity: 0.9;
     transition: top 1.8s ease-in-out, opacity 0.8s ease-in;
     z-index: 1;
@@ -21,12 +22,14 @@
     margin-top: 5px;
 }
 .toogle-menu li a {
-    color: var(--white-color);
+    /* color: var(--white-color); */
+    color: rgb(61, 7, 48);
     text-decoration: none;
     font-size: 16px;
 }
 .toogle-menu li a:hover {
-    color: var(--secondary-color);
+    /* color: var(--secondary-color); */
+    color: #eb1bac;
 }
 .toogle-menu li a.heading {
     font-weight: 700;
@@ -51,7 +54,8 @@
     display: none;
 }
 .toogle-menu li a.heading.selected {
-    color: var(--secondary-color);
+    /* color: var(--secondary-color); */
+    color: #eb1bac;
 }
 
 @media screen and (min-width: 768px) {
