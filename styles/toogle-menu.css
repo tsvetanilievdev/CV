@@ -64,16 +64,17 @@
 }
 .toogle-menu ul.pro {
     position: absolute;
-    top: -20px;
+    transform: translateY(-10px);
     opacity: 0;
-    transition: top 800ms ease-in-out, opacity 300ms ease-in 300ms,
+    transition: transform 800ms ease-in-out, opacity 300ms ease-in 300ms,
         opacity 1ms ease-out, visibility 1ms ease-out;
     z-index: -1;
     visibility: hidden;
+    overflow: hidden;
 }
 .toogle-menu ul.pro.show {
     position: relative;
-    top: 0px;
+    transform: translateY(10px);
     opacity: 1;
     z-index: 1;
     visibility: unset;
