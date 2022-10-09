@@ -50,7 +50,7 @@ header .navigation ul {
     justify-content: center;
     align-items: center;
     height: 44px;
-    gap: 0px 50px;
+    gap: 0px 20px;
     border-top: 1px solid var(--black-color);
 }
 
@@ -85,14 +85,11 @@ header .navigation ul a:hover {
     #show-menu-mob {
         padding-left: 0;
     }
-    header .navigation {
-        /* display: block; */
+    header .navigation ul {
+        gap: 0px 50px;
     }
 }
 @media screen and (min-width: 768px) {
-    header .navigation {
-        /* display: block; */
-    }
     div.logo {
         height: 150px;
     }
@@ -108,16 +105,3 @@ header .navigation ul a:hover {
         left: 30px;
     }
 }
-
-/* @media screen and (max-width: 540px) {
-    header .navigation ul {
-        gap: 0px 20px;
-    }
-    div.logo {
-        height: 100px;
-    }
-
-    header div.info {
-        font-size: 12px;
-    }
-} */

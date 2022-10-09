@@ -14,7 +14,6 @@
 }
 .sub-sub-navigation-list {
     height: 0;
-    /* background-color: #f8eef5; */
     transform: scaleY(0);
     transform-origin: top;
     transition: transform 300ms ease-in-out;
@@ -23,21 +22,32 @@
 .sub-navigation.show {
     transform: scaleY(1);
     min-height: calc(100vh - 100px);
-    font: 1em sans-serif;
+    font: 18px sans-serif;
 }
 .sub-sub-navigation-list.show {
     transform: scaleY(1);
     height: auto;
-    font: 1em sans-serif;
+    font: 18px sans-serif;
 }
 #close-menu {
     position: absolute;
-    top: 20px;
-    right: 20px;
+    font-weight: 600;
+    top: 30px;
+    right: 30px;
+}
+
+/* margin and padding on list items */
+.sub-navigation-item {
+    margin: 30px;
 }
 
 /* links */
 #sub-navigation a {
-    color: var(--primary-color);
+    color: var(--black-color);
     text-decoration: none;
+    font-weight: 600;
+    /* font-size: 18px; */
+}
+#sub-navigation a:hover {
+    color: var(--primary-color);
 }
