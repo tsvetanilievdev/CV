@@ -74,9 +74,15 @@ header .navigation ul a:hover {
 /* show-menu-mob */
 #show-menu-mob {
     color: var(--white-color);
-    font-size: 16px;
+    font-size: 26px;
+    padding-left: 10px;
 }
 
+@media screen and (min-width: 400px) {
+    #show-menu-mob {
+        padding-left: 0;
+    }
+}
 @media screen and (min-width: 768px) {
     header .navigation {
         display: block;
