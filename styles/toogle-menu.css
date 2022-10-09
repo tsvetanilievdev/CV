@@ -1,7 +1,7 @@
 .sub-navigation {
     position: absolute;
     top: 50px;
-    width: calc(50vw);
+    width: calc(90vw);
     z-index: 1;
     background-color: var(--white-color);
     height: 0;
