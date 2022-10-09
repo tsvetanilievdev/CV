@@ -25,6 +25,7 @@
     <header id="header">
         <div class="info">
             <ul>
+                <li class="show-menu-mob"><a href="#" id="show-menu-mob"><i class="fa-solid fa-bars"></i></a></li>
                 <li>
                     <i class="fa-solid fa-phone"></i>
                     <span>0897696021</span>
@@ -49,10 +50,10 @@
                 <li class="navigation-item"><a href="./pages/gallery.html">Галерия</a></li>
             </ul>
         </nav>
-        <nav>
-            <ul class="toogle-menu closed" id="toogle-menu">
-                <li><a class="heading" href="#" id="face">Лице <i class="fa-solid fa-chevron-right"></i></a>
-                    <ul class="pro face">
+        <nav class="sub-navigation" id="sub-navigation">
+            <ul class="sub-navigation-list">
+                <li><a href="#" class="main-sub-link" id="face">Лице <i class="fa-solid fa-chevron-right"></i></a>
+                    <ul class="sub-sub-navigation-list">
                         <li><a href="#">Почистване на лице <i class="fa-solid fa-chevron-right"></i></a></li>
                         <li><a href="#">Jetpeel <i class="fa-solid fa-chevron-right"></i></a></li>
                         <li><a href="#">Химически пилинг <i class="fa-solid fa-chevron-right"></i></a>
@@ -76,8 +77,8 @@
                     </ul>
                 </li>
 
-                <li><a class="heading" href="#" id="body">Тяло <i class="fa-solid fa-chevron-right"></i></a>
-                    <ul class="pro body">
+                <li><a href="#" class="main-sub-link" id="body">Тяло <i class="fa-solid fa-chevron-right"></i></a>
+                    <ul class="sub-sub-navigation-list">
                         <li><a href="#">LPG <i class="fa-solid fa-chevron-right"></i></a>
                         </li>
                         <li><a href="#">EmShape body sclupting <i class="fa-solid fa-chevron-right"></i></a>
@@ -96,24 +97,30 @@
                     </ul>
                 </li>
 
-                <li><a class="heading" href="#" id="laser">Лазерна епилация <i
+                <li><a href="#" class="main-sub-link" id="laser">Лазерна епилация <i
                             class="fa-solid fa-chevron-right"></i></a>
-                    <ul class="pro laser">
+                    <ul class="sub-sub-navigation-list">
                         <li><a href="#">SHR Лазерна епилация <i class="fa-solid fa-chevron-right"></i></a></li>
                     </ul>
                 </li>
 
 
-                <li><a class="heading" href="#" id="kola">Кола маска <i class="fa-solid fa-chevron-right"></i></a>
-                    <ul class="pro kola">
+                <li><a href="#" class="main-sub-link" id="kola">Кола маска <i class="fa-solid fa-chevron-right"></i></a>
+                    <ul class="sub-sub-navigation-list">
                         <li><a href="#">Кола маска с ленти<i class="fa-solid fa-chevron-right"></i></a></li>
                     </ul>
                 </li>
-                <li><a class="heading" href="#" id="micropig">Микропигментация <i
+                <li><a href="#" class="main-sub-link" id="micropig">Микропигментация <i
                             class="fa-solid fa-chevron-right"></i></a>
-                    <ul class="pro micropig">
+                    <ul class="sub-sub-navigation-list">
                         <li><a href="#">Микропигментация на вежди <i class="fa-solid fa-chevron-right"></i></a></li>
                         <li><a href="#">Микропигментация на устни <i class="fa-solid fa-chevron-right"></i></a></li>
+                    </ul>
+                </li>
+                <li><a href="#" class="main-sub-link" id="massage">Масаж <i class="fa-solid fa-chevron-right"></i></a>
+                    <ul class="sub-sub-navigation-list">
+                        <li><a href="#">Масаж на тяло <i class="fa-solid fa-chevron-right"></i></a></li>
+                        <li><a href="#">Спортен масаж <i class="fa-solid fa-chevron-right"></i></a></li>
                     </ul>
                 </li>
                 <li><a id="close-menu" href="#">X</a></li>
@@ -121,80 +128,82 @@
         </nav>
     </header>
 
-    <section id="hero">
-        <div class="overlay"></div>
-        <div class="hero-wrapper">
-            <h1>Козметичен Център Естило</h1>
-            <p>Ние Ви предлагаме широка гама от услуги и процедури, поднесени и изпълнени с професионализъм,
-                компетентност и индивидуален подход!</p>
-            <div class="btn-wrap">
-                <a class="btn btn--primary" href="services">Услуги и Процедури <i
-                        class="fa-solid fa-chevron-right"></i></a>
-                <!--  <a class="btn btn--secondary" href="book">Book now <i class="fa-solid fa-chevron-right"></i></a> -->
+    <main>
+        <section id="hero">
+            <div class="overlay"></div>
+            <div class="hero-wrapper">
+                <h1>Козметичен Център Естило</h1>
+                <p>Ние Ви предлагаме широка гама от услуги и процедури, поднесени и изпълнени с професионализъм,
+                    компетентност и индивидуален подход!</p>
+                <div class="btn-wrap">
+                    <a class="btn btn--primary" href="services">Услуги и Процедури <i
+                            class="fa-solid fa-chevron-right"></i></a>
+                    <!--  <a class="btn btn--secondary" href="book">Book now <i class="fa-solid fa-chevron-right"></i></a> -->
+                </div>
+                <div class="social-wrap">
+                    <a href="https://www.facebook.com/profile.php?id=100063802381213" target="_blank"><i
+                            class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/estilo.cosmetic.center" target="_blank"><i
+                            class="fa-brands fa-instagram"></i></a>
+                </div>
             </div>
-            <div class="social-wrap">
-                <a href="https://www.facebook.com/profile.php?id=100063802381213" target="_blank"><i
-                        class="fa-brands fa-facebook"></i></a>
-                <a href="https://www.instagram.com/estilo.cosmetic.center" target="_blank"><i
-                        class="fa-brands fa-instagram"></i></a>
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <section id="service-preview">
-        <h3 class="service-preview-title">Някои от нашите услуги:</h3>
-        <div class="preview-card-wrap">
-            <ul class="preview-card-list">
-                <li class="preview-card-item">
-                    <div class="preview-img-container">
-                        <img src="./src/images/card-lpg.png" alt="LGP ">
-                        <span>Епилация</span>
-                    </div>
-                    <div class="preview-content">
-                        <h3>Лазерна Епилация</h3>
-                        <p>SHR Епилация, Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate tenetur
-                            quia aspernatur porro temporibus facilis nemo!</p>
-                        <a class="btn btn--primary" href="">Виж Още</a>
-                    </div>
-                </li>
-                <li class="preview-card-item">
-                    <div class="preview-img-container">
-                        <img src="./src/images/card-lpg.png" alt="LGP ">
-                        <span>Почистване</span>
-                    </div>
-                    <div class="preview-content">
-                        <h3>Почистване на лице</h3>
-                        <p>SHR Епилация, Lorem ipsum dolor sit amet consectetur adipisicing elit!</p>
-                        <a class="btn btn--primary" href="">Виж Още</a>
-                    </div>
-                </li>
-                <li class="preview-card-item">
-                    <div class="preview-img-container">
-                        <img src="./src/images/card-lpg.png" alt="LGP ">
-                        <span>Епилация</span>
-                    </div>
-                    <div class="preview-content">
-                        <h3>Лазерна Епилация</h3>
-                        <p>SHR Епилация, Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate tenetur
-                            quia aspernatur porro temporibus facilis nemo!</p>
-                        <a class="btn btn--primary" href="">Виж Още</a>
-                    </div>
-                </li>
-                <li class="preview-card-item">
-                    <div class="preview-img-container">
-                        <img src="./src/images/card-lpg.png" alt="LGP ">
-                        <span>Почистване</span>
-                    </div>
-                    <div class="preview-content">
-                        <h3>Почистване на лице</h3>
-                        <p>SHR Епилация, Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate tenetur
-                        </p>
-                        <a class="btn btn--primary" href="">Виж Още</a>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </section>
+        <section id="service-preview">
+            <h3 class="service-preview-title">Някои от нашите услуги:</h3>
+            <div class="preview-card-wrap">
+                <ul class="preview-card-list">
+                    <li class="preview-card-item">
+                        <div class="preview-img-container">
+                            <img src="./src/images/card-lpg.png" alt="LGP ">
+                            <span>Епилация</span>
+                        </div>
+                        <div class="preview-content">
+                            <h3>Лазерна Епилация</h3>
+                            <p>SHR Епилация, Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate tenetur
+                                quia aspernatur porro temporibus facilis nemo!</p>
+                            <a class="btn btn--primary" href="">Виж Още</a>
+                        </div>
+                    </li>
+                    <li class="preview-card-item">
+                        <div class="preview-img-container">
+                            <img src="./src/images/card-lpg.png" alt="LGP ">
+                            <span>Почистване</span>
+                        </div>
+                        <div class="preview-content">
+                            <h3>Почистване на лице</h3>
+                            <p>SHR Епилация, Lorem ipsum dolor sit amet consectetur adipisicing elit!</p>
+                            <a class="btn btn--primary" href="">Виж Още</a>
+                        </div>
+                    </li>
+                    <li class="preview-card-item">
+                        <div class="preview-img-container">
+                            <img src="./src/images/card-lpg.png" alt="LGP ">
+                            <span>Епилация</span>
+                        </div>
+                        <div class="preview-content">
+                            <h3>Лазерна Епилация</h3>
+                            <p>SHR Епилация, Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate tenetur
+                                quia aspernatur porro temporibus facilis nemo!</p>
+                            <a class="btn btn--primary" href="">Виж Още</a>
+                        </div>
+                    </li>
+                    <li class="preview-card-item">
+                        <div class="preview-img-container">
+                            <img src="./src/images/card-lpg.png" alt="LGP ">
+                            <span>Почистване</span>
+                        </div>
+                        <div class="preview-content">
+                            <h3>Почистване на лице</h3>
+                            <p>SHR Епилация, Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate tenetur
+                            </p>
+                            <a class="btn btn--primary" href="">Виж Още</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
 
     <footer id="footer">
         <section class="contact">
