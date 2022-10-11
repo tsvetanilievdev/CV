@@ -3,16 +3,12 @@
     top: 50px;
     width: calc(90vw);
     z-index: 1;
-    background-color: var(--white-color);
-    height: 0;
-    transform: scaleY(0);
-    transform-origin: top;
-    transition: transform 300ms ease-in-out;
-    font-size: 0px;
-    opacity: 0.9;
-    padding: 50x 30px;
+    background-color: rgba(255, 255, 255, 0.96);
+    min-height: calc(100vh - 50px);
+    max-height: auto;
+    /* display: none; */
 }
-.sub-sub-navigation-list {
+/* .sub-sub-navigation-list {
     height: 0;
     transform: scaleY(0);
     transform-origin: top;
@@ -29,25 +25,52 @@
     height: auto;
     font: 18px sans-serif;
 }
+
+
+
+
+
+
+#sub-navigation a {
+    color: var(--black-color);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+}
+#sub-navigation a:hover {
+    color: var(--primary-color);
+} */
 #close-menu {
     position: absolute;
     font-weight: 600;
     top: 30px;
     right: 30px;
 }
-
-/* margin and padding on list items */
-.sub-navigation-item {
-    margin: 30px;
-}
-
-/* links */
-#sub-navigation a {
+#sub-navigation .sub-navigation-list > li > a {
     color: var(--black-color);
     text-decoration: none;
-    font-weight: 600;
-    /* font-size: 18px; */
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: uppercase;
 }
-#sub-navigation a:hover {
-    color: var(--primary-color);
+#sub-navigation .sub-navigation-list > li > a > i {
+    font-size: 12px;
+    padding-left: 10px;
+}
+#sub-navigation .sub-sub-navigation-list > li > a {
+    color: var(--black-color);
+    text-decoration: none;
+}
+.sub-navigation-item {
+    padding: 30px 30px 30px 30px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.sub-navigation-item:hover {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+    background-color: rgba(255, 255, 255, 1);
+}
+.sub-sub-navigation-list {
+    display: none;
+    padding: 10px 30px 10px 30px;
+    background-color: aqua;
 }
