@@ -1,7 +1,13 @@
-const subMenuLists = [...document.getElementById('sub-navigation').querySelectorAll('.sub-sub-navigation-list')];
-const [hamburgerIcon, XmarkIcon] = [...document.getElementById('show-menu-mob').querySelectorAll('i')];
-$('#sub-navigation').on('click', showSubSubMenus);
-$('#show-menu-mob').on('click', showSubMenu)
+const subNavigationElement = document.getElementById('sub-navigation');
+const showMenuMobLink = document.getElementById('show-menu-mob');
+const servicesLink = document.getElementById('services-link');
+
+const subMenuLists = [...subNavigationElement.querySelectorAll('.sub-sub-navigation-list')];
+const [hamburgerIcon, XmarkIcon] = [...showMenuMobLink.querySelectorAll('i')];
+
+subNavigationElement.addEventListener('click', showSubSubMenus);
+showMenuMobLink.addEventListener('click', showSubMenu);
+servicesLink.addEventListener('click', showSubMenu)
 
 
 function showSubSubMenus(e) {
@@ -23,7 +29,9 @@ function showSubSubMenus(e) {
 
 function showSubMenu(e) {
     subMenuLists.forEach(x => x.style.display = 'none');
-    hamburgerIcon.classList.toggle('hide-it');
-    XmarkIcon.classList.toggle('hide-it');
+    if (!(hamburgerIcon.parentElement.classList.contains('hide-it'))) {
+        hamburgerIcon.classList.toggle('hide-it');
+        XmarkIcon.classList.toggle('hide-it');
+    }
     $('#sub-navigation').slideToggle('slow');
 }
