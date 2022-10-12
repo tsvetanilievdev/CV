@@ -5,7 +5,7 @@
     z-index: 1;
     background-color: var(--white-color-menu-transperant);
     height: min(auto);
-    /* height: min(auto); */
+    /* height: min(100vh - 50px); */
     display: none;
 }
 #sub-navigation .sub-navigation-list > li {
