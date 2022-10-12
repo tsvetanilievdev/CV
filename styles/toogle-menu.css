@@ -4,7 +4,8 @@
     width: calc(100vw);
     z-index: 1;
     background-color: var(--white-color);
-    max-height: calc(100vh - 50px);
+    height: min(100vh);
+    /* height: min(auto); */
     opacity: 0.95;
     display: none;
 }
@@ -46,4 +47,7 @@
     display: none;
     padding: 10px 30px 10px 30px;
     background-color: aqua;
+}
+.hide-it {
+    display: none;
 }
