@@ -5,8 +5,8 @@
     z-index: 1;
     background-color: var(--white-color);
     max-height: calc(100vh - 50px);
-    /* height: min(auto); */
     opacity: 0.95;
+    display: none;
 }
 
 #close-menu {
