@@ -9,13 +9,6 @@
     opacity: 0.95;
     display: none;
 }
-
-#close-menu {
-    position: absolute;
-    font-weight: 600;
-    top: 30px;
-    right: 30px;
-}
 #sub-navigation .sub-navigation-list > li {
     position: relative;
 }

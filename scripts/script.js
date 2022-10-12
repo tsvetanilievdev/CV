@@ -8,7 +8,9 @@ $('#show-menu-mob').on('click', showSubMenu)
 function showSubSubMenus(e) {
 
     if (e.target.tagName == 'A' && e.target.classList.contains('main-sub-link')) {
-        $(e.target.nextElementSibling).slideToggle(400);
+        let currList = e.target.nextElementSibling
+        $(currList).slideToggle(400);
+        subMenuLists.filter(x => x !== currList).forEach(x => $(x).slideUp());
 
     } else if (e.target.classList.contains('icon')) {
         let parent = e.target.parentElement.parentElement;
