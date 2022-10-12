@@ -1,61 +1,34 @@
 .sub-navigation {
     position: absolute;
     top: 50px;
-    width: calc(90vw);
+    width: calc(100vw);
     z-index: 1;
-    background-color: rgba(255, 255, 255, 0.96);
-    min-height: calc(100vh - 50px);
-    max-height: auto;
-    /* display: none; */
-}
-/* .sub-sub-navigation-list {
-    height: 0;
-    transform: scaleY(0);
-    transform-origin: top;
-    transition: transform 300ms ease-in-out;
-    font-size: 0px;
-}
-.sub-navigation.show {
-    transform: scaleY(1);
-    min-height: calc(100vh - 100px);
-    font: 18px sans-serif;
-}
-.sub-sub-navigation-list.show {
-    transform: scaleY(1);
-    height: auto;
-    font: 18px sans-serif;
+    background-color: var(--white-color);
+    max-height: calc(100vh - 50px);
+    /* height: min(auto); */
+    opacity: 0.95;
 }
 
-
-
-
-
-
-#sub-navigation a {
-    color: var(--black-color);
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 18px;
-}
-#sub-navigation a:hover {
-    color: var(--primary-color);
-} */
 #close-menu {
     position: absolute;
     font-weight: 600;
     top: 30px;
     right: 30px;
 }
+#sub-navigation .sub-navigation-list > li {
+    position: relative;
+}
 #sub-navigation .sub-navigation-list > li > a {
     color: var(--black-color);
     text-decoration: none;
-    font-weight: 500;
-    font-size: 18px;
+    font-weight: 600;
+    font-size: 14px;
     text-transform: uppercase;
 }
 #sub-navigation .sub-navigation-list > li > a > i {
     font-size: 12px;
-    padding-left: 10px;
+    position: absolute;
+    right: 30px;
 }
 #sub-navigation .sub-sub-navigation-list > li > a {
     color: var(--black-color);
@@ -65,12 +38,12 @@
     padding: 30px 30px 30px 30px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
-.sub-navigation-item:hover {
+.sub-navigation:hover > ul > li zzzzzz {
     border-bottom: 1px solid rgba(0, 0, 0, 0.4);
-    background-color: rgba(255, 255, 255, 1);
+    background-color: red;
 }
 .sub-sub-navigation-list {
     display: none;
     padding: 10px 30px 10px 30px;
-    /* background-color: aqua; */
+    background-color: aqua;
 }

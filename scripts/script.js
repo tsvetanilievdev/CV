@@ -6,3 +6,8 @@ function showSubMenus(e) {
         $(e.target.nextElementSibling).slideToggle(400)
     }
 }
+
+
+$('#show-menu-mob').on('click', function (e) {
+    $('#sub-navigation').slideToggle('slow')
+})
