@@ -3,10 +3,9 @@
     top: 50px;
     width: calc(100vw);
     z-index: 1;
-    background-color: var(--white-color);
+    background-color: var(--white-color-menu-transperant);
     height: min(100vh);
     /* height: min(auto); */
-    opacity: 0.95;
     display: none;
 }
 #sub-navigation .sub-navigation-list > li {
@@ -18,6 +17,9 @@
     font-weight: 600;
     font-size: 14px;
     text-transform: uppercase;
+}
+#sub-navigation .sub-navigation-list > li:hover {
+    background-color: var(--white-color);
 }
 #sub-navigation .sub-navigation-list > li > a > i {
     font-size: 12px;
@@ -32,10 +34,7 @@
     padding: 30px 30px 30px 30px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
-.sub-navigation:hover > ul > li zzzzzz {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
-    background-color: red;
-}
+
 .sub-sub-navigation-list {
     display: none;
     padding: 10px 30px 10px 30px;

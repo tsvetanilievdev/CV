@@ -13,8 +13,11 @@ function showSubSubMenus(e) {
         subMenuLists.filter(x => x !== currList).forEach(x => $(x).slideUp());
 
     } else if (e.target.classList.contains('icon')) {
-        let parent = e.target.parentElement.parentElement;
-        $(parent.querySelector('ul.sub-sub-navigation-list')).slideToggle(400);
+        let currList = e.target.parentElement.parentElement.querySelector('ul.sub-sub-navigation-list')
+        $(currList).slideToggle(400);
+    } else if (e.target.classList.contains('sub-navigation-item')) {
+        let currList = e.target.querySelector('ul');
+        $(currList).slideToggle(400);
     }
 }
 
