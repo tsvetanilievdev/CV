@@ -5,20 +5,18 @@ $('#show-menu-mob').on('click', showSubMenu)
 
 
 function showSubSubMenus(e) {
+    let currList;
+
     if (e.target.tagName == 'A' && e.target.classList.contains('main-sub-link')) {
-        let currList = e.target.nextElementSibling
-        $(currList).slideToggle(400);
-        subMenuLists.filter(x => x !== currList).forEach(x => $(x).slideUp());
-
+        currList = e.target.nextElementSibling;
     } else if (e.target.classList.contains('icon')) {
-        let currList = e.target.parentElement.parentElement.querySelector('ul.sub-sub-navigation-list')
-        subMenuLists.filter(x => x !== currList).forEach(x => $(x).slideUp());
-
-        $(currList).slideToggle(400);
+        currList = e.target.parentElement.parentElement.querySelector('ul.sub-sub-navigation-list')
     } else if (e.target.classList.contains('sub-navigation-item')) {
-        let currList = e.target.querySelector('ul');
-        subMenuLists.filter(x => x !== currList).forEach(x => $(x).slideUp());
+        currList = e.target.querySelector('ul');
+    }
 
+    if (currList) {
+        subMenuLists.filter(x => x !== currList).forEach(x => $(x).slideUp());
         $(currList).slideToggle(400);
     }
 }

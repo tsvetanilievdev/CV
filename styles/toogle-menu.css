@@ -20,6 +20,7 @@
 }
 #sub-navigation .sub-navigation-list > li:hover {
     background-color: var(--white-color);
+    cursor: pointer;
 }
 #sub-navigation .sub-navigation-list > li > a > i {
     font-size: 12px;
