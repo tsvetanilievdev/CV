@@ -4,7 +4,7 @@
     width: calc(100vw);
     z-index: 1;
     background-color: var(--white-color-menu-transperant);
-    height: min(100vh);
+    height: min(auto);
     /* height: min(auto); */
     display: none;
 }
