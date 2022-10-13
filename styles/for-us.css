@@ -48,3 +48,14 @@ section#our-team img {
     object-fit: cover;
     border-radius: 50%;
 }
+@media screen and (min-width: 768px) {
+    ul.our-team-list li.our-team-member {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    ul.our-team-list li.our-team-member:nth-child(even) img {
+        order: 1;
+    }
+}
