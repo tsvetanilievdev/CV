@@ -33,6 +33,7 @@
 #sub-navigation .sub-sub-navigation-list > li > a {
     color: var(--black-color);
     text-decoration: none;
+    font-size: 15px;
 }
 .sub-navigation-item {
     padding: 30px 30px 30px 30px;
@@ -41,7 +42,7 @@
 
 #sub-navigation .sub-sub-navigation-list {
     display: none;
-    padding: 10px 30px 10px 30px;
+    padding: 10px 0px 10px 10px;
 }
 #sub-navigation .sub-sub-navigation-list > li {
     position: relative;
@@ -60,7 +61,17 @@
 .hide-it {
     display: none;
 }
+@media screen and (min-width: 330px) {
+    #sub-navigation .sub-sub-navigation-list > li > a {
+        font-size: 16px;
+    }
+}
 
+@media screen and (min-width: 372px) {
+    #sub-navigation .sub-sub-navigation-list {
+        padding: 10px 30px 10px 30px;
+    }
+}
 @media screen and (min-width: 768px) {
     .sub-navigation {
         top: 246px;
