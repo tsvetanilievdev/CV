@@ -1,0 +1,50 @@
+main {
+    background-color: var(--background-color-primary);
+}
+section#our-team {
+    position: relative;
+    width: 76%;
+    margin: 0 auto;
+    background-color: antiquewhite;
+}
+h3.our-team-title {
+    text-align: center;
+    padding: 30px;
+    font-size: 1.75rem;
+    font-family: Prata;
+}
+ul.our-team-list {
+    padding: 30px;
+}
+ul.our-team-list li.our-team-member {
+    margin-bottom: 30px;
+}
+/* Member item */
+li.our-team-member p {
+    text-align: center;
+}
+li.our-team-member p.member-name {
+    width: 70%;
+    margin: 20px auto 0px;
+    border-bottom: 1px solid var(--black-border-transperant);
+    font-size: 1.25rem;
+    font-family: Prata;
+}
+li.our-team-member p.member-position {
+    font-family: Prata;
+    font-weight: bold;
+    margin: 6px;
+}
+li.our-team-member p.member-desc {
+    font-size: 0.9rem;
+}
+
+/* Img */
+section#our-team img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 50%;
+}
