@@ -94,3 +94,26 @@
         width: 70%;
     }
 }
+
+/* #quote */
+#quote {
+    /* background-color: rgb(248, 221, 221); */
+    background-color: var(--graci-color-1);
+    display: flex;
+    flex-direction: column;
+    min-height: 200px;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    min-width: 300px;
+}
+#quote p {
+    width: 70%;
+    font-family: Prata;
+    padding: 50px 50px 0;
+}
+#quote span {
+    margin: 20px;
+    margin-right: 20%;
+    align-self: flex-end;
+}
