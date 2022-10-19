@@ -7,17 +7,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
         content="Предвалага ме Ви широка гама от процедури и услуги - лазерна епилация, почистване на лице, LPG и много други">
-    <link rel="stylesheet" href="./styles/reset.css">
-    <link rel="stylesheet" href="./styles/typography.css">
-    <link rel="stylesheet" href="./styles/style.css">
-    <link rel="stylesheet" href="./styles/components.css">
-    <link rel="stylesheet" href="./styles/header.css">
-    <link rel="stylesheet" href="./styles/toogle-menu.css">
-    <link rel="stylesheet" href="./styles/hero.css">
-    <link rel="stylesheet" href="./styles/service-preview.css">
-    <link rel="stylesheet" href="./styles/footer.css">
-    <script src="./scripts/jquery-3.6.1.min.js"></script>
-    <script src="./scripts/script.js" defer></script>
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/typography.css">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/components.css">
+    <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/toogle-menu.css">
+    <!--     <link rel="stylesheet" href="../styles/hero.css">
+    <link rel="stylesheet" href="../styles/service-preview.css"> -->
+    <!-- <link rel="stylesheet" href="../styles/for-us.css"> -->
+    <link rel="stylesheet" href="../styles/procedure.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+    <script src="../scripts/jquery-3.6.1.min.js"></script>
+    <script src="../scripts/script.js" defer></script>
     <title>Козметичен център Естило</title>
 </head>
 
@@ -40,16 +42,16 @@
             </ul>
         </div>
         <div class="logo">
-            <a href="/">
-                <img class="logo" src="./src/images/logo-500-378px.png" alt="logo-estilo">
+            <a href="../index.html">
+                <img class="logo" src="../src/images/logo-500-378px.png" alt="logo-estilo">
             </a>
         </div>
         <nav class="navigation">
             <ul class="navigation-list">
-                <li class="navigation-item"><a href="./pages/for-us.html">За нас</a></li>
+                <li class="navigation-item"><a href="../pages/for-us.html">За нас</a></li>
                 <li class="navigation-item"><a href="#" id="services-link">Услуги</a></li>
                 <li class="navigation-item"><a href="#procedures">Контакти</a></li>
-                <li class="navigation-item"><a href="./pages/gallery.html">Галерия</a></li>
+                <li class="navigation-item"><a href="../pages/gallery.html">Галерия</a></li>
             </ul>
         </nav>
         <nav class="sub-navigation" id="sub-navigation">
@@ -58,8 +60,7 @@
                     <a href="#" class="main-sub-link" id="face">Лице <i class="fa-solid fa-angle-down icon"></i>
                     </a>
                     <ul class="sub-sub-navigation-list">
-                        <li><a href="./pages/face-cleanup.html">Почистване на лице <i
-                                    class="fa-solid fa-angles-right"></i></a></li>
+                        <li><a href="#">Почистване на лице <i class="fa-solid fa-angles-right"></i></a></li>
                         <li><a href="#">Jetpeel <i class="fa-solid fa-angles-right"></i></a></li>
                         <li><a href="#">Химически пилинг <i class="fa-solid fa-angles-right"></i></a>
                         </li>
@@ -136,79 +137,16 @@
     </header>
 
     <main>
-        <section id="hero">
+        <section id="procedure-hero">
             <div class="overlay"></div>
-            <div class="hero-wrapper">
+            <div class="procedure-hero-wrapper">
                 <h1>Козметичен Център Естило</h1>
                 <p>Ние Ви предлагаме широка гама от услуги и процедури, поднесени и изпълнени с професионализъм,
                     компетентност и индивидуален подход!</p>
-                <div class="btn-wrap">
-                    <a class="btn btn--primary" href="services">Услуги и Процедури <i
-                            class="fa-solid fa-angles-right"></i> </a>
-                    <!--  <a class="btn btn--secondary" href="book">Book now <i class="fa-solid fa-angle-down"></i></a> -->
-                </div>
-                <div class="social-wrap">
-                    <a href="https://www.facebook.com/profile.php?id=100063802381213" target="_blank"><i
-                            class="fa-brands fa-facebook"></i></a>
-                    <a href="https://www.instagram.com/estilo.cosmetic.center" target="_blank"><i
-                            class="fa-brands fa-instagram"></i></a>
-                </div>
             </div>
         </section>
+        <section id="procedure-info">
 
-        <section id="service-preview">
-            <h3 class="service-preview-title">Някои от нашите услуги:</h3>
-            <div class="preview-card-wrap">
-                <ul class="preview-card-list">
-                    <li class="preview-card-item">
-                        <div class="preview-img-container">
-                            <img src="./src/images/card-lpg.png" alt="LGP ">
-                            <span>Епилация</span>
-                        </div>
-                        <div class="preview-content">
-                            <h3>Лазерна Епилация</h3>
-                            <p>SHR Епилация, Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate tenetur
-                                quia aspernatur porro temporibus facilis nemo!</p>
-                            <a class="btn btn--primary" href="">Виж Още</a>
-                        </div>
-                    </li>
-                    <li class="preview-card-item">
-                        <div class="preview-img-container">
-                            <img src="./src/images/card-lpg.png" alt="LGP ">
-                            <span>Почистване</span>
-                        </div>
-                        <div class="preview-content">
-                            <h3>Почистване на лице</h3>
-                            <p>SHR Епилация, Lorem ipsum dolor sit amet consectetur adipisicing elit!</p>
-                            <a class="btn btn--primary" href="">Виж Още</a>
-                        </div>
-                    </li>
-                    <li class="preview-card-item">
-                        <div class="preview-img-container">
-                            <img src="./src/images/card-lpg.png" alt="LGP ">
-                            <span>Епилация</span>
-                        </div>
-                        <div class="preview-content">
-                            <h3>Лазерна Епилация</h3>
-                            <p>SHR Епилация, Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate tenetur
-                                quia aspernatur porro temporibus facilis nemo!</p>
-                            <a class="btn btn--primary" href="">Виж Още</a>
-                        </div>
-                    </li>
-                    <li class="preview-card-item">
-                        <div class="preview-img-container">
-                            <img src="./src/images/card-lpg.png" alt="LGP ">
-                            <span>Почистване</span>
-                        </div>
-                        <div class="preview-content">
-                            <h3>Почистване на лице</h3>
-                            <p>SHR Епилация, Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate tenetur
-                            </p>
-                            <a class="btn btn--primary" href="">Виж Още</a>
-                        </div>
-                    </li>
-                </ul>
-            </div>
         </section>
     </main>
 
