@@ -1,8 +1,8 @@
 /* #procedure-hero */
 #procedure-hero {
     position: relative;
-    min-height: 400px;
-    height: 50vh;
+    min-height: 340px;
+    height: 40vh;
     background-image: url("../src/images/lifting-procedure.jpg");
     background-repeat: no-repeat;
     background-position: center center;
