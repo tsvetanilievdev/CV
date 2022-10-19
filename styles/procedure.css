@@ -49,3 +49,43 @@
 }
 
 /* #procedure-info */
+#procedure-info {
+    min-height: 100px;
+    background-color: var(--background-color-primary);
+    background-color: white;
+    width: 90%;
+    margin: 0 auto 30px;
+}
+
+#procedure-info h3.info-title {
+    color: gray;
+    font-family: Prata, open-sans;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 30px;
+}
+#procedure-info p.info-desc {
+    color: gray;
+    padding: 0 10px;
+    line-height: 1.5;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+/* info-positives */
+.info-positives {
+    width: 90%;
+    margin: 30px auto;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.info-positives-item {
+    width: 40%;
+}
+.info-positives i {
+    font-size: 4rem;
+    color: var(--secondary-color);
+}
