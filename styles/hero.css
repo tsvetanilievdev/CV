@@ -111,6 +111,7 @@
     width: 80%;
     margin: 0 auto;
 }
+/* border */
 #quote .quote-wrapper::after {
     content: "";
     display: block;
