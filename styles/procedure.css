@@ -8,3 +8,40 @@
     background-size: cover;
     color: white;
 }
+
+#procedure-hero .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: var(--overlay-color);
+    opacity: 0.3;
+}
+
+#procedure-hero .procedure-hero-wrapper {
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#procedure-hero h1 {
+    font-family: Prata, open-sans;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 1.1;
+    width: 90%;
+    min-width: 356px;
+}
+
+#procedure-hero p {
+    padding: 40px 0 40px;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.3;
+    letter-spacing: 1px;
+    width: 70%;
+}
