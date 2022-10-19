@@ -3,8 +3,9 @@ main {
 }
 section#our-team {
     position: relative;
-    width: 76%;
+    width: 80%;
     margin: 0 auto;
+    max-width: 1000px;
 }
 h3.our-team-title {
     text-align: center;
@@ -48,22 +49,13 @@ section#our-team img {
     border-radius: 50%;
 }
 @media screen and (min-width: 768px) {
-    ul.our-team-list li.our-team-member {
+    ul.our-team-list {
         display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 20px;
+        flex-wrap: wrap;
+        gap: 5%;
     }
     ul.our-team-list li.our-team-member {
-        max-width: 780px;
-        margin: 0 auto;
-        gap: 100px;
-    }
-    ul.our-team-list li.our-team-member:nth-child(even) img {
-        order: 1;
-    }
-    ul.our-team-list li.our-team-member:nth-child(even) {
-        background-color: azure;
+        width: 30%;
     }
 }
 
