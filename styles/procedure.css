@@ -89,3 +89,16 @@
     font-size: 4rem;
     color: var(--secondary-color);
 }
+
+@media screen and (min-width: 768px) {
+    #procedure-info p.info-desc {
+        width: 80%;
+    }
+    .info-positives {
+        gap: 50px 20px;
+        width: 80%;
+    }
+    .info-positives-item {
+        width: 30%;
+    }
+}
