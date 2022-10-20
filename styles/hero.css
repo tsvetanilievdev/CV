@@ -1,3 +1,6 @@
+main {
+    overflow: hidden;
+}
 #hero {
     position: relative;
     min-height: 560px;
@@ -98,6 +101,7 @@
 /* #quote */
 #quote {
     background-color: var(--graci-color-1);
+    position: relative;
 }
 #quote .quote-wrapper {
     display: flex;
@@ -124,7 +128,8 @@
 #quote .quote-wrapper p {
     width: 90%;
     font-family: Prata;
-    padding: 30px 50px 0;
+    padding: 30px 20px 0;
+    overflow: hidden;
 }
 #quote .quote-wrapper span {
     margin: 20px;
