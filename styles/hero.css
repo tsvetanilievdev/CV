@@ -122,7 +122,7 @@
     bottom: -1px;
 }
 #quote .quote-wrapper p {
-    width: 70%;
+    width: 90%;
     font-family: Prata;
     padding: 30px 50px 0;
 }
@@ -130,4 +130,10 @@
     margin: 20px;
     margin-right: 20%;
     align-self: flex-end;
+}
+
+@media screen and (min-width: 1200px) {
+    #quote .quote-wrapper p {
+        width: 70%;
+    }
 }
