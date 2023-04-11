@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    font-family: Oswald, sans-serif;
+}
+
+
+li {
+    list-style: none;
+}
+
+
+body {
+    overflow: hidden;
+}
+
+/* Header */
+#header_top {
+    /* width: 200px; */
+    /* height: 300px; */
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header_top h1 {
+    text-align: center;
+    padding-left: 10px;
+}
+
+#header_top button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.menu_mobile {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+    background-color: aquamarine;
+    text-align: center;
+}
+
+.menu_mobile.show {
+    max-height: 200px;
+    /* Set this to the maximum height of your menu */
+}
+
+li:hover {
+    scale: 1.2;
+}
+
+.menu_big {
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: aquamarine;
+    margin-right: 50px;
+    padding: 13px 0;
+    display: none;
+}
+
+
+/* Main */
+main {
+    background-image: url('./main.jpeg');
+}
+main {
+    background-image: url('./main.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: calc(100vh - 100px);
+    min-height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.main_darkoverlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+
+/* Hero */
+
+/* Forms */
+form.form {
+    width: 100%;
+    min-height: 380px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.699);
+    padding: 0 10px;
+    position: relative;
+}
+form.form h2 {
+    text-align: center;
+}
+form.form label {
+    margin: 10px 0;
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+}
+
+form.form button {
+    min-width: 70%;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: rgb(0, 38, 255);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: color 0.3s ease, background-color 0.1s ease;
+    border-radius: 6px;
+}
+form.form button:hover {
+    background-color: white;
+    color:rgb(0, 38, 255)
+}
+
+
+
+
+/* Footer */
+footer {
+    height: 50px;
+    background-color: blue;
+}
+
+@media screen and (min-width: 420px) {
+    form.form {
+        width: 80%
+    }
+}
+
+
+
+@media screen and (min-width: 768px) {
+    form.form {
+        width: 60%;
+        max-width: 600px;
+    }
+
+    #header_top button {
+        display: none;
+    }
+    .menu_big {
+        display: flex;
+        
+    }
+}
+
+
+
+/* @media screen and (max-width: 768px) {
+    .menu_big {
+        display: none;
+        
+    }
+
+}
+     */
